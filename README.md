@@ -4,32 +4,15 @@ A personal practice repository for learning and experimenting with **ROS2** and 
 
 ![Simulation](media/image.png)
 
-## Purpose
+## Tech Stack
 
-This repo is not intended for production use. It exists solely to:
-
-- Build hands-on familiarity with ROS2 concepts (nodes, topics, services, actions, etc.)
-- Explore robot simulation using Gazebo
-- Experiment with URDF/Xacro robot descriptions
-- Practice ROS2 package structure and tooling (colcon, rviz2, etc.)
-
-## Robot
-
-The practice robot used here is the **myCobot** a small, 6-DOF collaborative robot arm by Elephant Robotics.
-
-## Credits
-
-Inspired by and based on the excellent work of **Automatic Addison**:
-
-- 🔗 [automaticaddison/mycobot_ros2](https://github.com/automaticaddison/mycobot_ros2)
-
-All credit for the original implementation, tutorials, and design goes to them. This repository is purely a personal learning exercise built on top of their foundation.
-
-## Requirements
-
-- ROS2 (Jazzy)
-- Gazebo
-- `colcon` build tool
+| Component | Version |
+|---|---|
+| **OS** | Ubuntu 24.04 (WSL2 supported) |
+| **ROS 2** | Jazzy Jalisco |
+| **Simulator** | Gazebo Harmonic (gz-sim) |
+| **Languages** | C++ 17, Python 3 |
+| **Robot** | myCobot (Elephant Robotics) |
 
 ## Getting Started
 
@@ -46,6 +29,26 @@ colcon build
 # Source the workspace
 source install/setup.bash
 ```
+## Robot
+
+The practice robot used here is the **myCobot** a small, 6-DOF collaborative robot arm by Elephant Robotics.
+
+## Purpose
+
+This repo is not intended for production use. It exists solely to:
+
+- Build hands-on familiarity with ROS2 concepts (nodes, topics, services, actions, etc.)
+- Explore robot simulation using Gazebo
+- Experiment with URDF/Xacro robot descriptions
+- Practice ROS2 package structure and tooling (colcon, rviz2, etc.)
+
+## Credits
+
+Inspired by and based on the excellent work of **Automatic Addison**:
+
+- 🔗 [automaticaddison/mycobot_ros2](https://github.com/automaticaddison/mycobot_ros2)
+
+All credit for the original implementation, tutorials, and design goes to them. This repository is purely a personal learning exercise built on top of their foundation.
 
 ## License
 
