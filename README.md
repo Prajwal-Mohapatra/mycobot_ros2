@@ -2,6 +2,8 @@
 
 A personal practice repository for learning and experimenting with **ROS2** and **Gazebo**.
 
+![Simulation](media/image.png)
+
 ## Purpose
 
 This repo is not intended for production use. It exists solely to:
