@@ -33,6 +33,19 @@ source install/setup.bash
 
 The practice robot used here is the **myCobot** a small, 6-DOF collaborative robot arm by Elephant Robotics.
 
+## Project Structure
+
+```text
+mycobot_ros2/
+├── mycobot_bringup/        # Launch files for real and simulated robot bringup
+├── mycobot_description/    # Robot description files (URDF/Xacro, meshes, RViz configs)
+├── mycobot_gazebo/         # Gazebo simulation assets (worlds, models, plugin configs)
+├── mycobot_moveit_config/  # MoveIt 2 configurations for motion planning and kinematics
+├── mycobot_ros2/           # Core utilities and metapackage definitions
+├── mycobot_system_tests/   # System-level test scripts and custom controllers
+└── media/                  # Documentation assets and images
+```
+
 ## Purpose
 
 This repo is not intended for production use. It exists solely to:
